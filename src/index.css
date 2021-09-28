@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  /* primary */
+  --moderateCyan: hsl(176, 50%, 47%);
+  --darkCyan: hsl(176, 72%, 28%);
+  
+  /* neutral */
+  --black: hsl(0, 0%, 0%);
+  --darkGray: hsl(0, 0%, 48%);
+
+  /* fonts */
+  --font: 'Commissioner';
+}
+
+html, body {
+  height: 200vh;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
