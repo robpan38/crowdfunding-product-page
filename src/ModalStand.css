@@ -1,0 +1,142 @@
+.modalStandWrapper {
+    height: auto;
+    min-height: 160px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3% / 8%;
+    border-color: var(--darkGray);
+    border-width: 1px;
+    border-style: solid;
+    font-family: var(--font, 'sans-serif');
+    margin-bottom: 2vh;
+}
+
+.defaultWrapper {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5vh 0;
+}
+
+.circle {
+    height: 20%;
+    width: 4%;
+    align-self: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+.circleActivated {
+    background-color: var(--moderateCyan);
+}
+
+.textWrapper {
+    height: 100%;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleTextWrapper {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalStandPledge {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalStandName {
+    font-size: max(1rem, 1vw);
+    font-weight: 700;
+}
+
+.modalStandPrice {
+    font-size: max(0.95rem, 0.95vw);
+    font-weight: 700;
+    color: var(--moderateCyan);
+}
+
+.modalStandLeft {
+    font-size: max(0.9rem, 0.9vw);
+    color: var(--darkGray);
+}
+
+.modalStandDescription {
+    height: 60%;
+    font-size: max(0.9rem, 0.9vw);
+    color: var(--darkGray);
+}
+
+.pledgeWrapper {
+    display: none !important;
+    height: 4vh;
+    width: 95%;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pledgeWrapperActivated {
+    display: flex !important;
+}
+
+.label {
+    font-size: max(1rem, 1vw);
+    color: var(--darkGray);
+}
+
+.amountWrapper {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.dollar {
+    position: absolute;
+    font-size: max(1.1rem, 1.1vw);
+    font-weight: 700;
+    color: var(--darkGray);
+    left: 4%;
+}
+
+.amountWrapper input {
+    height: 100%;
+    width: 40%;
+    padding-left: 10%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25% / 50%;
+    font-size: max(1rem, 1vw);
+    font-weight: 700;
+}
+
+.amountWrapper button {
+    height: 100%;
+    width: 40%;
+    border-radius: 25% / 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--moderateCyan);
+    background-color: var(--moderateCyan);
+    font-size: max(1rem, 1vw);
+    font-weight: 700;
+    color: white;
+}

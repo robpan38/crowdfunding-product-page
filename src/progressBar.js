@@ -8,12 +8,12 @@ const ProgressBar = () => {
                     <p className="current">$89.914</p>
                     <p className="target">of $100.000 backed</p>
                 </div>
-                <hr class="vertical"></hr>
+                <hr className="vertical"></hr>
                 <div className="backers progressDisplay">
                     <p className="current">5.007</p>
                     <p className="target">total backers</p>
                 </div>
-                <hr class="vertical"></hr>
+                <hr className="vertical"></hr>
                 <div className="days progressDisplay">
                     <p className="current">56</p>
                     <p className="target">days left</p>

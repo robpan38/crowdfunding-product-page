@@ -1,7 +1,50 @@
 .modalWrapper {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     overflow-y: auto;
     position: fixed;
-    background-color: rgba(0, 0, 0, 10%);
+    background-color: hsla(0, 0%, 48%, 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalInnerWrapper {
+    height: 80vh;
+    width: 50%;
+    background-color: white;
+    border-radius: 1% / 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe space-around;
+    align-items: safe center;
+    overflow-y: auto;
+    font-family: var(--font, 'sans-serif');
+}
+
+.modalTitleWrapper {
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh 0;
+}
+
+.modalTitleWrapper p {
+    font-size: max(1.5rem, 1.5vw);
+    font-weight: 700;
+}
+
+.xIcon {
+    height: 60%;
+    width: 3%;
+}
+
+.modalDescription {
+    height: 5vh;
+    width: 90%;
+    font-size: max(1rem, 1vw);
+    color: var(--darkGray);
+    margin-bottom: 2vh;
 }
