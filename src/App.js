@@ -3,7 +3,8 @@ import './App.css';
 import Header from './Header';
 import Title from './Title';
 import ProgressBar from './progressBar';
-import Stand from './Stand';
+import StandContainer from './StandContainer';
+import Modal from './Modal';
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Header/>
       <Title/>
       <ProgressBar/>
-      <Stand standName="Bamboo Stand" standAmount="25" standDescription="You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-  you’ll be added to a special Backer member list." standCount="101"></Stand>
+      <StandContainer/>
+      <Modal/>
     </div>
   );
 }

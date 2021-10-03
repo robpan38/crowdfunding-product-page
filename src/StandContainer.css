@@ -1,0 +1,26 @@
+.standContainerWrapper {
+    height: 200vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 2% / 1%;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.standContainerWrapper * {
+    width: 90%;
+}
+
+.standContainerTitle {
+    font-size: max(1.1rem, 1.1vw);
+    font-weight: 700;
+}
+
+.standContainerDescription {
+    font-size: max(0.9rem, 0.9vw);
+    color: var(--darkGray);
+}
