@@ -15,7 +15,7 @@ const Stand = (props) => {
                     <p className="count">{props.standCount}</p>
                     <p className="left">left</p>
                 </div>
-                <button className="selectBtn" style={props.opacity ? {backgroundColor: "var(--darkGray)", borderColor: "var(--darkGray)"} : {}}>Select Reward</button>
+                <button className="selectBtn" onClick={props.handleModal} style={props.opacity ? {backgroundColor: "var(--darkGray)", borderColor: "var(--darkGray)"} : {}}>Select Reward</button>
             </div>
         </div>
     );

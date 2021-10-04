@@ -36,9 +36,9 @@ const Modal = (props) => {
                 <p className="modalDescription">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
                 <ModalStand name="Pledge with no reward" description="Choose to support us without a reward if you simply believe in our project. As a backer, 
   you will be signed up to receive product updates via email." noReward="1" handleClick={handleNoRewardClick} activated={noRewardActivated} handleSuccessModal={props.handleSuccessModal}></ModalStand>
-                <ModalStand name="Bamboo Stand" price="25" left="101" description="You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
+                <ModalStand name="Bamboo Stand" price="25" left={props.bambooStandCount} description="You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
   you’ll be added to a special Backer member list." handleClick={handleBambooClick} activated={bambooActivated} handleSuccessModal={props.handleSuccessModal}></ModalStand>
-                <ModalStand name="Black Edition Stand" price="75" left="64" description="You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
+                <ModalStand name="Black Edition Stand" price="75" left={props.blackEditionCount} description="You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
   member list. Shipping is included." handleClick={handleBlackClick} activated={blackActivated} handleSuccessModal={props.handleSuccessModal}></ModalStand>
                 <ModalStand name="Mahogany Special Edition" price="200" left="0" description="You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
   to our Backer member list. Shipping is included." opacity="0.6"></ModalStand>

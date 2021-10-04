@@ -1,5 +1,5 @@
 .modalStandWrapper {
-    height: auto;
+    height: 25vh;
     min-height: 160px;
     width: 90%;
     display: flex;
@@ -15,7 +15,7 @@
 }
 
 .defaultWrapper {
-    height: 90%;
+    height: 10vh;
     width: 95%;
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@
 
 .pledgeWrapper {
     display: none !important;
-    height: 4vh;
+    height: 5vh;
     width: 95%;
     margin-bottom: 2vh;
     display: flex;

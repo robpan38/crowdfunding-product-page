@@ -1,7 +1,7 @@
 import './StandContainer.css';
 import Stand from './Stand';
 
-const StandContainer = () => {
+const StandContainer = (props) => {
     return (
         <div className="standContainerWrapper">
             <p className="standContainerTitle">About this project</p>
@@ -18,9 +18,9 @@ const StandContainer = () => {
             </p>
 
             <Stand standName="Bamboo Stand" standAmount="25" standDescription="You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-  you’ll be added to a special Backer member list." standCount="101"></Stand>
+  you’ll be added to a special Backer member list." standCount={props.bambooStandCount} handleModal={props.handleModal}></Stand>
             <Stand standName="Black Edition Stand" standAmount="75" standDescription="You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-  member list. Shipping is included." standCount="64"></Stand>
+  member list. Shipping is included." standCount={props.blackEditionCount} handleModal={props.handleModal}></Stand>
             <Stand standName="Mahogany Special Edition" standAmount="200" standDescription="You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
   to our Backer member list. Shipping is included." standCount="0" opacity="0.6"></Stand>
         </div>

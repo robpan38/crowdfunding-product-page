@@ -1,16 +1,16 @@
 import './progressBar.css';
 
-const ProgressBar = () => {
+const ProgressBar = (props) => {
     return (
         <div className="progressWrapper">
             <div className="progressNumbers">
                 <div className="money progressDisplay">
-                    <p className="current">$89.914</p>
+                    <p className="current">${props.amount}</p>
                     <p className="target">of $100.000 backed</p>
                 </div>
                 <hr className="vertical"></hr>
                 <div className="backers progressDisplay">
-                    <p className="current">5.007</p>
+                    <p className="current">{props.backers}</p>
                     <p className="target">total backers</p>
                 </div>
                 <hr className="vertical"></hr>
