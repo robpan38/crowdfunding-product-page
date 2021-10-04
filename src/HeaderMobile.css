@@ -1,0 +1,58 @@
+.headerMobileWrapper {
+    height: 30vh;
+    width: 100%;
+    background-image: url('./images/image-hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font, 'sans-serif');
+}
+
+.headerMobileInnerWrapper {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoMobile {
+    height: 40%;
+    width: 30%;
+}
+
+.hamburger {
+    height: 25%;
+    width: 10%;
+}
+
+.menuWrapperMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    opacity: 1;
+}
+
+.menuMobile {
+    height: 21vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 3% / 3%;
+    opacity: 0;
+}
+
+.menuMobileActivated {
+    opacity: 1;
+}
+
+.menuMobile p {
+    padding-left: 5%;
+    font-size: 0.9rem;
+    font-weight: 700;
+}

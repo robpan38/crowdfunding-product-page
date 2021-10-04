@@ -3,7 +3,7 @@ import './ModalStand.css';
 
 const ModalStand = (props) => {
     return (
-        <div className="modalStandWrapper" style={props.opacity ? {opacity:props.opacity} : {opacity:1}} onClick={props.handleClick}>
+        <div className={`modalStandWrapper ${props.activated === true ? "modalStandWrapperActivated" : null}`} style={props.opacity ? {opacity:props.opacity} : {opacity:1}} onClick={props.handleClick}>
             <div className="defaultWrapper">
                 <div className={`circle ${props.activated === true ? "circleActivated" : null}`}></div>
                 <div className="textWrapper">

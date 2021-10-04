@@ -74,3 +74,9 @@
     font-weight: 700;
     color: white;
 }
+
+.selectBtn:hover {
+    cursor: pointer;
+    border-color: var(--darkCyan);
+    background-color: var(--darkCyan);
+}

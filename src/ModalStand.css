@@ -14,6 +14,11 @@
     margin-bottom: 2vh;
 }
 
+.modalStandWrapperActivated {
+    border-width: 2px;
+    border-color: var(--moderateCyan);
+}
+
 .defaultWrapper {
     height: 10vh;
     width: 95%;
@@ -62,6 +67,11 @@
 .modalStandName {
     font-size: max(1rem, 1vw);
     font-weight: 700;
+}
+
+.modalStandName:hover {
+    color: var(--moderateCyan);
+    cursor: pointer;
 }
 
 .modalStandPrice {
@@ -128,6 +138,11 @@
     font-weight: 700;
 }
 
+.amountWrapper input:focus {
+    border-width: 1px;
+    outline-color: var(--moderateCyan);
+}
+
 .amountWrapper button {
     height: 100%;
     width: 40%;
@@ -139,4 +154,10 @@
     font-size: max(1rem, 1vw);
     font-weight: 700;
     color: white;
+}
+
+.amountWrapper button:hover {
+    border-color: var(--darkCyan);
+    background-color: var(--darkCyan);
+    cursor: pointer;
 }

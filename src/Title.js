@@ -11,9 +11,9 @@ const Title = (props) => {
                 <p className="titleDescription">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
                 <div className="titleBtns">
                     <button className="backBtn" onClick={props.handleModal}>Back this project</button>
-                    <button className="bookmarkBtn">
+                    <button className="bookmarkBtn" onClick={props.handleBookmark} style={props.bookmarked ? {color: 'var(--darkCyan)'} : {}}>
                         <img src={bookmarkImg} alt="bookmark-img"></img>
-                        Bookmark
+                        {props.bookmarked === true ? 'Bookmarked' : 'Bookmark'}
                     </button>
                 </div>
             </div>

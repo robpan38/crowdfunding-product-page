@@ -1,5 +1,5 @@
 .titleWrapper {
-    height: 35vh;
+    height: 45vh;
     width: 50%;
     background-color: white;
     display: flex;
@@ -57,6 +57,12 @@
     font-weight: 700;
 }
 
+.backBtn:hover {
+    border-color: var(--darkCyan);
+    background-color: var(--darkCyan);
+    cursor: pointer;
+}
+
 .bookmarkBtn {
     height: 100%;
     width: 30%;
@@ -71,10 +77,18 @@
     position: relative;
 }
 
+.bookmarkBtn:hover {
+    cursor: pointer;
+}
+
 .bookmarkBtn img {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 30%;
+}
+
+.bookmarkBtn img:hover {
+    opacity: 0.6;
 }

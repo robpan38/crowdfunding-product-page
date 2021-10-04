@@ -20,7 +20,7 @@ const ProgressBar = (props) => {
                 </div>
             </div>
             <div className="progressBar">
-                <div className="progressBarColor"></div>
+                <div className="progressBarColor" style={{width: props.percent}}></div>
             </div>
         </div>
     );
