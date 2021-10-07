@@ -92,3 +92,38 @@
 .bookmarkBtn img:hover {
     opacity: 0.6;
 }
+
+@media screen and (max-width: 1250px) {
+    .titleWrapper {
+        height: 35vh;
+        width: 85%;
+    }
+
+    .titleInnerWrapper {
+        row-gap: 5%;
+    }
+
+    .titleText {
+        font-size: 1.2rem;
+    }
+
+    .titleDescription {
+        font-size: 0.75rem;
+    }
+
+    .backBtn {
+        width: 80%;
+        font-size: 0.85rem;
+    }
+    
+    .bookmarkBtn {
+        width: 15%;
+        background-color: white;
+        border-color: white;
+        color: hsla(170, 0%, 100%, 0);
+    }
+
+    .bookmarkBtn img {
+        width: 100%;
+    }
+}

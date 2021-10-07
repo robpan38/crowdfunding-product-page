@@ -48,3 +48,9 @@
     color: var(--darkGray);
     margin-bottom: 2vh;
 }
+
+@media screen and (max-width: 1250px) {
+    .modalInnerWrapper {
+        width: 85%;
+    }
+}

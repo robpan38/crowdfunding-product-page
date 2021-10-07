@@ -23,7 +23,9 @@ body {
 }
 
 html, body {
-  height: 200vh;
+  height: 300vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 #root {

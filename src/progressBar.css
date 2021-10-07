@@ -48,3 +48,34 @@
     border-radius: 1% / 40%;
     background-color: var(--moderateCyan);
 }
+
+@media screen and (max-width: 1250px) {
+    .progressWrapper {
+        width: 85%;
+    }
+
+    .progressNumbers {
+        height: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .progressDisplay {
+        height: 33%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .current {
+        font-size: 1.7rem;
+    }
+
+    .target {
+        font-size: 0.9rem;
+    }
+
+    .progressBar {
+        height: 4%;
+    }
+}

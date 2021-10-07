@@ -161,3 +161,39 @@
     background-color: var(--darkCyan);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1250px) {
+    .modalStandWrapper {
+        min-height: 230px;
+    }
+
+    .defaultWrapper {
+        height: 100%;
+    }
+
+    .modalStandName {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .modalStandPrice {
+        font-size: 0;
+        color: hsla(170, 0%, 100%, 0);
+    }
+
+    .modalStandDescription {
+        font-size: 0.8rem;
+    }
+
+    .pledgeWrapper {
+        justify-content: center;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .amountWrapper {
+        width: 80%;
+    }
+}

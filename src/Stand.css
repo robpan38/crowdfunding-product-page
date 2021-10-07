@@ -80,3 +80,26 @@
     border-color: var(--darkCyan);
     background-color: var(--darkCyan);
 }
+
+@media screen and (max-width: 1250px) {
+    .standWrapper {
+        height: 45vh;
+        margin: 1.5vh;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+
+    .pledge {
+        font-size: 0.8rem;
+    }
+
+    .standDescription {
+        font-size: 0.85rem;
+    }
+
+    .standCountWrapper {
+        width: 30%;
+    }
+}

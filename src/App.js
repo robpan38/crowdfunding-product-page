@@ -70,11 +70,11 @@ function App() {
   return (
     <div id="root2">
       {!isScreenSmall ? <Header/> : <HeaderMobile mobileMenu={mobileMenuStatus} handleMobileMenu={handleMobileMenuClick}></HeaderMobile>}
-      {/* <Title handleModal={handleModalStatusClick} bookmarked={bookmarked} handleBookmark={handleBookmarkClick}/>
+      <Title handleModal={handleModalStatusClick} bookmarked={bookmarked} handleBookmark={handleBookmarkClick}/>
       <ProgressBar percent={percentBar <= 100 ? percentBar + "%" : "100%"} amount={amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} backers={backers.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}></ProgressBar>
       <StandContainer handleModal={handleModalStatusClick} bambooStandCount={bambooStandCount} blackEditionCount={blackEditionCount}></StandContainer>
       {modalStatus === true ? <Modal handleModal={handleModalStatusClick} handleSuccessModal={handleSuccessModalStatusClick} bambooStandCount={bambooStandCount} blackEditionCount={blackEditionCount}></Modal> : null}
-      {successModalStatus === true ? <SuccessModal handleSuccessModal={handleSuccessModalStatusClick}></SuccessModal> : null} */}
+      {/* {successModalStatus === true ? <SuccessModal handleSuccessModal={handleSuccessModalStatusClick}></SuccessModal> : null} */}
     </div>
   );
 }
