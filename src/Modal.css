@@ -53,4 +53,12 @@
     .modalInnerWrapper {
         width: 85%;
     }
+
+    .modalDescription {
+        margin-bottom: 6vh;
+    }
+
+    .xIcon {
+        width: 10%;
+    }
 }

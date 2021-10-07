@@ -50,3 +50,18 @@
     font-weight: 700;
     color: white;
 }
+
+@media screen and (max-width: 1250px) {
+    .successModalInnerWrapper {
+        height: 70vh;
+        width: 85%;
+    }
+
+    .successModalTitle {
+        text-align: center;
+    }
+
+    .successModalBtn {
+        width: 30%;
+    }
+}

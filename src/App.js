@@ -59,6 +59,7 @@ function App() {
   }
   
   const handleModalStatusClick = () => {
+    console.log("caca");
     setModalStatus(!modalStatus);
   }
   
@@ -74,7 +75,7 @@ function App() {
       <ProgressBar percent={percentBar <= 100 ? percentBar + "%" : "100%"} amount={amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} backers={backers.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}></ProgressBar>
       <StandContainer handleModal={handleModalStatusClick} bambooStandCount={bambooStandCount} blackEditionCount={blackEditionCount}></StandContainer>
       {modalStatus === true ? <Modal handleModal={handleModalStatusClick} handleSuccessModal={handleSuccessModalStatusClick} bambooStandCount={bambooStandCount} blackEditionCount={blackEditionCount}></Modal> : null}
-      {/* {successModalStatus === true ? <SuccessModal handleSuccessModal={handleSuccessModalStatusClick}></SuccessModal> : null} */}
+      {successModalStatus === true ? <SuccessModal handleSuccessModal={handleSuccessModalStatusClick}></SuccessModal> : null}
     </div>
   );
 }

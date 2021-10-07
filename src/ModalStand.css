@@ -171,6 +171,14 @@
         height: 100%;
     }
 
+    .circle {
+        width: 8%;
+    }
+
+    .textWrapper {
+        width: 85%;
+    }
+
     .modalStandName {
         width: 100%;
         font-size: 1rem;
@@ -195,5 +203,9 @@
 
     .amountWrapper {
         width: 80%;
+    }
+
+    .amountWrapper button {
+        width: 50%;
     }
 }

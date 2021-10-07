@@ -120,7 +120,7 @@
         width: 15%;
         background-color: white;
         border-color: white;
-        color: hsla(170, 0%, 100%, 0);
+        color: hsla(170, 0%, 100%, 0) !important;
     }
 
     .bookmarkBtn img {
